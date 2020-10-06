@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  display: flex;
+  &__container {
+    width: 80%;
+    justify-content: space-between;
+
+    &__text {
+      width: 3.8rem;
+    }
+
+    &__icons {
+      width: 3.8rem;
+    }
+  }
+}
+
+// .footer__container {
+//   width: 80%;
+//   justify-content: space-between;
+// }
+
+// .footer__text__contents {
+//   width: 3.8rem;
+// }
+
+// .footer__icons__contents {
+//   width: 3.8rem;
+// }
+
+// .footer-icon {
+//   width: 10px;
+// }
