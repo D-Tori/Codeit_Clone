@@ -1,0 +1,85 @@
+@import "../../variables.scss";
+
+.footer {
+  width: 100%;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: $grey-100;
+  min-height: 10rem;
+  &__container {
+    padding-left: 3.7rem;
+    padding-right: 3.0rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    &__row {
+      display: inherit;
+      justify-content: start;
+      .text-header {
+        font-weight: bold;
+
+        &--terms {
+          cursor: pointer;
+          line-height: 1.8;
+          letter-spacing: -0.03rem;
+          color: $grey-100;
+        }
+      }
+      .text-body {
+        margin: 0 0.6rem;
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__item {
+      position: relative;
+      margin-left: .35rem;
+      margin-right: .35rem;
+      
+      transition: .4s;
+      border-radius: 100%;
+      background-color: $grey-100;
+      width: 2.7rem;
+      height: 2.7rem;
+      justify-content: center;
+      opacity: 0.83;
+
+      .icon {
+        position: absolute;
+        top: 16%;
+        left: 15%;
+      }
+    }
+    &__item:hover {
+      background-color: $primary-200;
+    }
+  }
+}
+
+// .footer__container {
+//   width: 80%;
+//   justify-content: space-between;
+// }
+
+// .footer__text__contents {
+//   width: 3.8rem;
+// }
+
+// .footer__icons__contents {
+//   width: 3.8rem;
+// }
+
+// .footer-icon {
+//   width: 10px;
+// }
