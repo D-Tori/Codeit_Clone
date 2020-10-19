@@ -53,48 +53,36 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer__icons">
-            
-              
                 <a
                   className="footer__icons__item"
                   href="https://www.youtube.com/channel/UCCM79CPm2WbBYTRaiNEExbg"
                 >
                   <img className="icon" src={youtubeImage} alt="youtubeImage"></img>
                 </a>
-              
-              
                 <a
                   className="footer__icons__item"
                   href="https://www.instagram.com/codeit_official/"
                 >
                   <img className="icon" src={instaImage} alt="instaImage"></img>
                 </a>
-              
-              
                 <a
                   className="footer__icons__item"
                   href="https://www.facebook.com/codeit.kr/"
                 >
                   <img className="icon" src={facebookImage} alt="facebookImage"></img>
-                </a>
-              
-              
+                </a>      
                 <a
                   className="footer__icons__item"
                   href="https://pf.kakao.com/_HxcRDM"
                 >
                   <img className="icon" src={kakaoImage} alt="kakaoImage"></img>
                 </a>
-              
-              
                 <a
                   className="footer__icons__item"
                   href="https://blog.naver.com/codeitofficial"
                 >
                   <img className="icon" src={naverImage} alt="naverImage"></img>
                 </a>
-              
-              
                 <a
                   className="footer__icons__item"
                   href="https://www.codeit.kr/"
