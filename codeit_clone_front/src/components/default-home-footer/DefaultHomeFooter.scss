@@ -1,0 +1,53 @@
+@import "../../variables.scss";
+
+.defaultHome {
+
+  text-align: center;
+
+
+
+  &__footer {
+    background-position: center;
+    background-size: 2250px 645px;
+    background-image: url("../../assets/image/defaultHome/footer__bg--pc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 29rem;
+  }
+
+  &__content {
+    font-size: 3.3rem;
+    letter-spacing: 0.5px;
+  }
+
+  &__text {
+    font-size: inherit;
+    color: #ffffff;
+  }
+
+  &__button {
+    position: relative;
+    border: none;
+    display: flex;
+    padding: 1.7rem 3.4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3.5rem auto 9.6rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    color: $primary-200;
+    background: $white;
+    box-shadow: 0 0.5rem 0 0 rgba(0, 0, 0, 0.1);
+    &::before {
+      transition: .1s top ease-out;
+      position: absolute;
+      display: block;
+      top: -0.6rem;
+    }
+
+  }
+
+  
+}
