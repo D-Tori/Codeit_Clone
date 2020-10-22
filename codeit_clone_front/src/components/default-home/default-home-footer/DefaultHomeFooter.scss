@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import "../../../variables.scss";
 
 .defaultHome {
 
@@ -9,7 +9,7 @@
   &__footer {
     background-position: center;
     background-size: 2250px 645px;
-    background-image: url("../../assets/image/defaultHome/footer__bg--pc.png");
+    background-image: url("../../../assets/image/defaultHome/footer__bg--pc.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: auto;
